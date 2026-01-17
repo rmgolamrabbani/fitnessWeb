@@ -47,7 +47,7 @@ nav>h2 {
 
 .nav-menu {
 
-    border: 1px solid rgba(240, 248, 255, 0.514);
+    border: 1px solid rgba(240, 248, 255, 0.151);
     border-radius: 39px;
     padding:12px 4px;
     
@@ -72,7 +72,6 @@ banner{
 }
 
 .banner-text{
-    border: 1px solid red;
     width: 50%;
     align-items: center;
    
@@ -82,12 +81,93 @@ banner{
     font-size: 4.8rem;
     color: #ffffff;
     width: 900;
-    margin-top: 98px;
+    margin-top: 80px;
     margin-bottom: 28px;
 }
 .banner-text p{
     margin-bottom: 28px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.banner-btn-1{
+  background-color: #E6533C;
+  color: white;
+  width: 224px;
+  height: 56px;
+  border-radius: 42px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.banner-btn-2{
+background: none;
+  color: white;
+  width: 224px;
+  height: 56px;
+  border-radius: 42px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.banner-img {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    
+}
+.banner-img img {
+   width: 55%; 
+}
+
+.tooltip-1 {
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    right: -12%;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    top: 17%;
+}
+ 
+.tooltip-1 h1{
+    font-size: 2.5rem;
+    width: 900;
+}
+.tooltip-1 p {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.tooltip-2{
+    background: rgba(255, 255, 255, 0.1);
+     position: absolute;
+    border-radius: 12px;
+    padding: 20px;
+    left: 25%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+.banner-img .tooltip-2 .red-ball{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
 
 
